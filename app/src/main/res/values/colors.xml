@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D0021B</color>
+    <color name="colorPrimaryDark">#D0021B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#efefed</color>
+    <color name="colorTextGray">#afafaf</color>
+    <color name="colorAffairsGray">#efefed</color>
+    <color name="colorBlack">#000000</color>
+    <!--最浅灰色，用于标题栏背景色/-->
+    <color name="colorGrayTitleBG">#f7f7f7</color>
+    <color name="colorSeg">#0079FF</color>
+    <color name="viligerbg">#C4D9F2</color>
+</resources>

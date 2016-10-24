@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_activity_search"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_seg_left_activity_search"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/seg_left"
+            android:text="标题"
+            android:textColor="@drawable/seg_text_color_selector"
+            />
+        <TextView
+            android:id="@+id/tv_seg_right_activity_search"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:background="@drawable/seg_right"
+            android:layout_height="match_parent"
+            android:textColor="@drawable/seg_text_color_selector"
+            android:text="内容"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_search_activity_search"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_activity_search"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:weightSum="1"
+        android:background="@color/colorGrayTitleBG"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/search_placeholder" />
+
+        <EditText
+            android:id="@+id/et_search_activity_search"
+            android:imeOptions="actionSearch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:inputType="text"
+            android:textColorHint="@color/colorTextGray"
+            android:hint="@string/search_detail" />
+
+        <TextView
+            android:id="@+id/tv_cancel_activity_search"
+            android:layout_marginLeft="11dp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#0079FF"
+            android:text="@string/search_cancel" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_activity_search"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_search_activity_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <ImageView
+        android:id="@+id/iv_netwrong_activity_search"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/network_wrong"/>
+</RelativeLayout>

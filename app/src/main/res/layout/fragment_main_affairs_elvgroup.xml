@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingRight="10dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_fragment_main_affairs_elvgroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/iv_fragment_main_affairs_elvgroup"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/triangle_right"/>
+
+        <TextView
+            android:id="@+id/tv_fragment_main_affairs_textgroup"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="乡镇名称1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_count_fragment_main_affairs_textgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="20"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:id="@+id/ll_viliger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    </LinearLayout>-->
+    <com.example.jit.plain.Utils.NoScrollGridView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/gv_viliger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:visibility="gone"/>
+
+</LinearLayout>

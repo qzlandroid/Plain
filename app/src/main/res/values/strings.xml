@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
+    <string name="app_name">平原村务公开网</string>
+    <string name="titleText">平原村务公开</string>
+    <string name="viewPagerText1">最新</string>
+    <string name="viewPagerText2">惠农政策</string>
+    <string name="viewPagerText3">惠农项目</string>
+    <string name="viewPagerText4">村务公开</string>
+
+
+    <string name="titlevalue">标题标题标题标题标题标题</string>
+    <string name="detailvalue">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</string>
+    <string name="search_title">搜索相关标题</string>
+    <string name="search_cancel">取消</string>
+    <string name="search_detail">搜索相关内容</string>
+
+</resources>
